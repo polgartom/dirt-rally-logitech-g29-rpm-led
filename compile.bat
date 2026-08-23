@@ -36,8 +36,6 @@ pushd %build_dir%
 if "%debug%"=="1" echo [compile debug]
 if "%release%"=="1" echo [compile release]
 
-del /Q *.*
-
 %compile% ..\server.c || exit /b 1
 
 popd
