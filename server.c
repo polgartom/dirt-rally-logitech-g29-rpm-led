@@ -171,7 +171,7 @@ int server_listen()
                                    fwrite(fdata, 264, 1, raw);
                               }
                               if (telementry.format != NONE) {
-                                   printf("write! lastwrite: %f ; delta: %f\n", lastwrite_time, delta_time);
+                                   // printf("write! lastwrite: %f ; delta: %f\n", lastwrite_time, delta_time);
                               }
                          }
 
